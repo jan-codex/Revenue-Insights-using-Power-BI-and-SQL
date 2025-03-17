@@ -3,35 +3,38 @@
 AtliQ Hardware, a brick-and-mortar hardware business, struggles with analyzing **sales trends** due to limited visibility into its sales data. This lack of insight hampers decision-making, demand forecasting, inventory optimization, and marketing strategies. To drive growth and improve performance, AtliQ Hardware needs a data-driven solution that provides clear sales insights, enabling informed decisions and strategic actions.
 
 ## 🚀 Step by Step Approach to the Solution 
+*The Sales Director of AltiQ Hardware decided to develop a Power BI dashboard to transform raw data into meaningful visual representations, enabling data-driven decision-making. To accomplish this, he assembled a team of data professionals to complete the task.*
 
-### 📌 Data Import & Initial Analysis  
-- Imported the sales data from an SQL dump file into a SQL database.  
-- Performed SQL queries and analysis to gain initial insights into sales trends.  
+## AIMS Grid
+By utilizing the AIMS grid project management tool, we ensured clarity on our project's purpose, stakeholders, expected outcomes, and success criteria.
 
-### 📌 SQL Database Integration with Power BI  
-- Established a connection between the SQL database and Power BI.  
-- Used either a live connection or imported relevant data tables for analysis.  
+![](https://github.com/jan-codex/Revenue-Insights-using-Power-BI-and-SQL/blob/main/image/AIMS%20grid%20sales%20insights.jpg)
 
-### 📌 Data Modeling & Relationship Management  
-- Created relationships between tables within Power BI to enable seamless analysis and visualization.  
+## Approach taken in this project
+* Gained an understanding of the AIMS grid for project planning.
+* Retrieved data from the database into Power BI using MySQL.
+* Cleaned and transformed data using Power Query.
+* Conducted the ETL (Extract, Transform, Load) process.
+* Created measures as per requirements and utilized them for visualizations in Power BI.
+* Handled transactions with multiple currencies by performing currency conversion to standardize the currency type.
+* Validated data for accuracy and consistency.
+* Designed data models and developed visualizations.
 
-### 📌 Data Cleaning & Transformation  
-- Utilized **Power Query** in Power BI for data transformation.  
-- Removed duplicates, resolved inconsistencies, and ensured data accuracy.  
+## Relationships
+Established relationships between different tables in Power BI to ensure seamless data integration and analysis
 
-### 📊 Dashboard Development  
+## Sales Insights
+* **Top Revenue Contributors:** The total sales across all markets amounted to *₹985M*, with **Delhi NCR, Mumbai, and Ahmedabad** being the top three revenue-generating markets, contributing 52.8%, 15.2%, and 13.4%, respectively.
 
-1️⃣ **Key Insights Dashboard** – Overview of total sales, top products, sales by region, and time-based trends.  
-2️⃣ **Profit Analysis Dashboard** – Profit margins, cost analysis, and product profitability insights.  
-3️⃣ **Performance Insights Dashboard** – Sales growth, customer segmentation, and market share analysis.  
+* **Top Profit Contributors:** When considering individual market profitability, **Surat, Patna, and Bhubaneswar** were the highest contributors, accounting for 4.9%, 4.1%, and 4% of the total profit, respectively. *However, in terms of overall profit contribution across all markets, Delhi NCR, Mumbai, and Ahmedabad emerged as the top three contributors*, generating 48.5%, 19.8%, and 11.6% of the total profit. This indicates that, while certain markets like Surat, Patna, and Bhubaneswar achieved high profit margins individually, the majority of the company's profit is still concentrated in the high-revenue markets, reinforcing their strategic importance.
 
-Each dashboard is **interactive**, allowing users to filter and drill down into specific dimensions or time periods.  
+## Overall Sales Trend
+*The overall sales trend from 2017 to 2020 shows a declining pattern:*
 
-## 🎯 Expected Outcomes  
+* 2017: ₹93M
+* 2018: ₹414M (Significant increase)
+* 2019: ₹336M (Slight decrease)
+* 2020: ₹142M (Sharp decline)
+Although there was a substantial increase in sales from 2017 to 2018, the trend started declining from 2019 onwards, with a significant drop in 2020. This indicates potential market challenges, economic factors, or operational inefficiencies that need further investigation to understand and address the decline.
 
-✅ **Enhanced Data Analysis** – Real-time insights for better trend analysis.  
-✅ **Improved Decision-Making** – Data-driven strategies for sales optimization.  
-✅ **Increased Efficiency** – Streamlined data processing and visualization.  
-✅ **Revenue Growth** – **Projected 7% increase in revenue** due to optimized sales strategies.  
-
-By leveraging **SQL and Power BI**, this solution enables **comprehensive data analysis and visualization**, empowering AtliQ Hardware to make informed decisions and drive growth. 🚀  
+By leveraging SQL and Power BI, this solution provides in-depth data analysis and dynamic visualizations, enabling AtliQ Hardware to gain valuable insights, optimize decision-making, and drive strategic growth. 🚀
