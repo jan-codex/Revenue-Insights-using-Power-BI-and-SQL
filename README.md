@@ -37,4 +37,10 @@ Established relationships between different tables in Power BI to ensure seamles
 * 2020: ₹142M (Sharp decline)
 Although there was a substantial increase in sales from 2017 to 2018, the trend started declining from 2019 onwards, with a significant drop in 2020. This indicates potential market challenges, economic factors, or operational inefficiencies that need further investigation to understand and address the decline.
 
-By leveraging SQL and Power BI, this solution provides in-depth data analysis and dynamic visualizations, enabling AtliQ Hardware to gain valuable insights, optimize decision-making, and drive strategic growth. 🚀
+## Profit Target Analysis
+* A Profit Target slider has been implemented, ranging from -5% to 15%, allowing dynamic comparison of actual profit margins against set benchmarks.
+* The "Target Diff" measure calculates the difference between actual Profit Margin % and the Profit Target Value, providing a clear view of which markets/customers are 
+  meeting or exceeding profitability expectations.
+* This allows strategic adjustments in pricing, cost management, and resource allocation.
+By leveraging **SQL and Power BI**, this solution provides in-depth data analysis and dynamic visualizations, enabling AtliQ Hardware to gain valuable insights, optimize 
+decision-making, and drive strategic growth. 🚀
