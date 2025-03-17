@@ -42,5 +42,10 @@ Although there was a substantial increase in sales from 2017 to 2018, the trend 
 * The "Target Diff" measure calculates the difference between actual Profit Margin % and the Profit Target Value, providing a clear view of which markets/customers are 
   meeting or exceeding profitability expectations.
 * This allows strategic adjustments in pricing, cost management, and resource allocation.
-By leveraging **SQL and Power BI**, this solution provides in-depth data analysis and dynamic visualizations, enabling AtliQ Hardware to gain valuable insights, optimize 
-decision-making, and drive strategic growth. 🚀
+
+  By leveraging **SQL and Power BI**, this solution provides in-depth data analysis and dynamic visualizations, enabling AtliQ Hardware to gain valuable insights, optimize 
+  decision-making, and drive strategic growth. 🚀
+
+## End Results
+![](https://github.com/jan-codex/Revenue-Insights-using-Power-BI-and-SQL/blob/main/image/Key%20Insights.png)
+![](https://github.com/jan-codex/Revenue-Insights-using-Power-BI-and-SQL/blob/main/image/Profit%20Analysis.png)
